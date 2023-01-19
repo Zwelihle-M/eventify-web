@@ -1,15 +1,9 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 * {
   box-sizing: border-box;
@@ -24,3 +18,37 @@ a {
     background: black;
   }
 }
+.h1 {
+  @apply text-[40px] leading-[40px] lg:text-[60px] lg:leading-[62px] font-extrabold;
+}
+.h2 {
+  @apply text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold;
+}
+.h3 {
+  @apply text-[38px] leading-[46px] font-extrabold;
+}
+.h4 {
+  @apply text-[30px] leading-[46px] font-extrabold;
+}
+.h5 {
+  @apply text-[24px] leading-[32px] font-extrabold;
+}
+.h6 {
+  @apply text-[18px] leading-[28px] font-bold;
+}
+
+.text-body-sm {
+  @apply  font-normal text-[16px] leading-[26px];
+}
+.text-body-md {
+  @apply  font-normal text-[20px] leading-[32px];
+}
+.text-body-lg {
+  @apply  font-normal text-[24px] leading-[34px];
+}
+
+
+.btn {
+  @apply font-medium h-12 px-8 bg-gradient-to-r from-[#05D6D9] to-[#F907FC] rounded-full text-[15px] hover:bg-gradient-to-l hover:from-[#F907FC] hover:to-[#05D6D9] outline-none flex items-center justify-center cursor-pointer;
+}
+
