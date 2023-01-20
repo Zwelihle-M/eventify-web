@@ -3,7 +3,7 @@ import { nav } from "../pages/data.js";
 
 function Navbar() {
   return (
-    <nav className='hidden lg:flex'>
+    <nav className='hidden lg:flex '>
     <ul className='flex gap-x-8'>
     {nav.map((item, idx) => {
           return (

@@ -33,7 +33,13 @@ module.exports = {
       }
 
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'darkbg': "url('../public/Images/darkbg.svg')",
+
+      }
+
+    },
   },
   plugins: [],
 }

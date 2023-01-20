@@ -47,3 +47,19 @@ export const download={
   title:"Download now",
   subtitle:"Experience Connect is available for download on the App Store and Google Play. Download it now and start connecting with new experiences"
 }
+
+export const pricing ={
+  title:"Pricing",
+  plan:[
+    {
+      name:"Free",
+      price:"0",
+      list:[
+        {
+          name:"No monthly subscription"
+        }
+
+      ]
+    }
+  ]
+}

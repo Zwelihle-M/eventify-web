@@ -24,12 +24,12 @@ function Header() {
       </Link> */}
 
       {/* nav */}
-      <Navbar />
+      <Navbar/>
       {/* buttons */}
-      <div className="hidden lg:flex space-x-4">
+      {/* <div className="hidden lg:flex space-x-4">
         <button>{Loginbtn}</button>
-        <button>{Signupbtn}</button>
-      </div>
+        <button className="btn">{Signupbtn}</button>
+      </div> */}
 
       {/* menu */}
       <div onClick={()=> setNavMobile(!navMobile)} className="lg:hidden absolute right-4 ">

@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Aos from "aos";
 import "aos/dist/aos.css"
+import Pricing from "../components/Pricing";
 
 export default function Home() {
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Banner />
       <About/>
       <Faq/>
+      <Pricing/>
       <Contact/>
       <Footer/>
     </div>

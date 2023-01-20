@@ -46,9 +46,23 @@
 .text-body-lg {
   @apply  font-normal text-[24px] leading-[34px];
 }
-
+.section {
+  @apply pb-[80px] md:pb-[110px] lg:pb-[180px];
+}
+.section-title-group {
+  @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px];
+}
+.section-title {
+  @apply flex -space-x-4;
+}
 
 .btn {
   @apply font-medium h-12 px-8 bg-gradient-to-r from-[#05D6D9] to-[#F907FC] rounded-full text-[15px] hover:bg-gradient-to-l hover:from-[#F907FC] hover:to-[#05D6D9] outline-none flex items-center justify-center cursor-pointer;
+}
+
+.glass{
+  background: hsl(0 0% 100%/0.1);
+  backdrop-filter: blur(1rem);
+
 }
 

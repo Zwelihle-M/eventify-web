@@ -6,7 +6,7 @@ import Wings from "../public/Images/wings.svg";
 function Banner() {
   const { title1, title2, subtitle, Startbtn } = banner;
   return (
-    <section className="bg-gray-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 h-[790px]">
+    <section className="bg-darkbg bg-cover rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 h-[790px]">
       <div className="container mx-auto h-full">
         <div className="flex items-center h-full relative-space-x-48 lg:-space-x-24">
           {/* data text */}
